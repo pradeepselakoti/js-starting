@@ -9,7 +9,7 @@ accity ="jfjf"
  // = 7
 
 
-//console.table([acce,accp,accity])
+console.table([acce,accp,accity])
 
 
 console.log(typeof undefined)
