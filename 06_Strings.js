@@ -17,7 +17,7 @@ const gamename = new String('hello-praddeep-dep')
 // console.log(gamename.charAt(4))
 // console.log(gamename.indexOf('l'));
 
-const newString = gamename.substring(0,4) // in this we cannot start with 0 ; it will ignore it and start with 0
+const newString = gamename.substring(0,4) // in this we cannot start with (-) value ; it will ignore it and start with 0
 //console.log(newString)
 
 const anothername = gamename.slice(-2,4)
