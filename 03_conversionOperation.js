@@ -18,7 +18,7 @@ let valueInNumber = Number(score)
 let isLoggedIn = undefined
 
 let boolenIsLoggedIn = Boolean(isLoggedIn)
-//console.log(boolenIsLoggedIn);
+// console.log(boolenIsLoggedIn);
 
 // 1 => true ; 0  => false
 // "" => false
@@ -41,15 +41,15 @@ let negValue = -value
 let str1 = "helllo"
 let str2 = " hitesh"
 let str3 = str1 + str2
-// console.log(str3)
+//  console.log(str3)
 
-// console.log("1"+2);
+//  console.log("1"+2);
 // console.log(1 + "2")
 // console.log("1"+ 2 + 2)
 // console.log(1 +2+ "2")
 
-//console.log(+true)
-console.log(+"")
+// console.log(+true)
+// console.log(+"")
 
 let num1, num2, num3
 

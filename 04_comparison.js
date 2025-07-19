@@ -2,22 +2,20 @@
 // console.log("02">1)
 
 
-console.log(null>0)
-console.log(null==0)
-console.log(null>=0)
+// console.log(null>0)
+// console.log(null==0)
+// console.log(null>=0)
 
-console.log(undefined == 0);
-console.log(undefined > 0)
-console.log(undefined < 0)
+// console.log(undefined == 0);
+// console.log(undefined > 0)
+// console.log(undefined < 0)
 
 console.log("2"==2)
 console.log("2"===2);
 
 // ✅ == Type Coercion Rules
 // 1️⃣ Same Type ➔ Compare Directly
-// js
-// Copy
-// Edit
+
 // 5 == 5           // true
 // "hello" == "hi"  // false
 // true == false    // false
@@ -28,16 +26,12 @@ console.log("2"===2);
 
 // Examples:
 
-// js
-// Copy
-// Edit
+
 // true == 1        // true
 // false == 0       // true
 // true == 2        // false
 // 3️⃣ String + Number ➔ String Converts to Number
-// js
-// Copy
-// Edit
+
 // "2" == 2         // true
 // "10" == 10       // true
 // "5" == 6         // false
@@ -48,9 +42,7 @@ console.log("2"===2);
 
 // Otherwise, null and undefined are not equal to any other value.
 
-// js
-// Copy
-// Edit
+
 // null == undefined   // true
 // null == 0           // false
 // undefined == 0      // false
@@ -59,17 +51,13 @@ console.log("2"===2);
 
 // Examples:
 
-// js
-// Copy
-// Edit
+
 // [1,2] == "1,2"      // true
 // [] == ""            // true
 // [] == 0             // true
 // [null] == 0         // true (since [null] → "" → 0)
 // 6️⃣ NaN is NEVER equal
-// js
-// Copy
-// Edit
+
 // NaN == NaN          // false
 // NaN == 0            // false
 // 🚦 Quick Memory Recap:
