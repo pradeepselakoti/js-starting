@@ -20,9 +20,9 @@ const newArr = new Array(1,2,3,4)
 // console.log(myArr.includes(98))
 // console.log(myArr.indexOf(3))
 
-const newArr1 = myArr.join()
+const newArr1 = myArr.join() // cobvert the array into string
 
-// console.log(newArr1)
+ console.log(newArr1)
 // console.log(myArr)
-// console.log(typeof newArr1)
-
+ console.log(typeof newArr1)
+// string

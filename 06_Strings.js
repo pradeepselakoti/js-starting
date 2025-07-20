@@ -24,8 +24,8 @@ const anothername = gamename.slice(-2,4)
 //console.log(anothername)
 
 const newStringOne = "  pradeep  "
-console.log(newStringOne);
-console.log(newStringOne.trim())
+// console.log(newStringOne);
+// console.log(newStringOne.trim())
 
 const url = "https://pradeep.com/pradeep%20selakoti"
 

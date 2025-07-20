@@ -14,7 +14,7 @@ let userEmail ;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id  === anotherId)
+// console.log(id  === anotherId)
 // false 
 
 const bigNumber = 32356561156115n
@@ -35,7 +35,7 @@ let myObj = {
 //     console.log("Hello world")
 // }
 
-// console.log(typeof outsideTemp)
+ console.log(typeof outsideTemp)
 // console.log(typeof score)
 
 
@@ -50,8 +50,8 @@ let anothername = ytname
 
 anothername = "chai"
 
-console.log(ytname)
-console.log(anothername)
+// console.log(ytname)
+// console.log(anothername)
 
 let userOne = {
     email:"user@gmail.com",
@@ -62,5 +62,5 @@ let userTwo = userOne
 
 userTwo.email = "read@gmail"
 
-console.log(userOne)
-console.log(userTwo)
+// console.log(userOne)
+// console.log(userTwo)

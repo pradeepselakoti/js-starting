@@ -1,8 +1,8 @@
 const mh = ["thor", "superman","batman"]
 const dc = ["flash", "clash", "deadpool"]
 
-//  mh.push(dc)
-// console.log(mh)
+//   mh.push(dc)
+//  console.log(mh)
 //  console.log(mh[3][2])
 
 const all_heros =mh.concat(dc)

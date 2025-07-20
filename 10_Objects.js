@@ -16,7 +16,7 @@ const Juser = {
 }
 
 //  console.log(Juser.email)
-// console.log(Juser["email"])
+ console.log(Juser['email'])
 
 //   console.log(Juser["full"])
 //   console.log(Juser[mySym])
@@ -31,10 +31,10 @@ Juser.email ="Pradeep@chatgpt.com"
 //   console.log(Juser.email)
 
 Juser.greeting = function(){
-    //  console.log("Hello JS User")
+     console.log("Hello JS User")
 }
 Juser.greeting2 = function(){
-    //  console.log(`hello my name is ${this.full}`)
+     console.log(`hello my name is ${this.full}`)
 }
-//  console.log(Juser.greeting())
-//  console.log(Juser.greeting2())
+ console.log(Juser.greeting())
+ console.log(Juser.greeting2())

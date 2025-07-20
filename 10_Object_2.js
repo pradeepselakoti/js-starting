@@ -1,6 +1,6 @@
-// const tinderUser = new Object()
+const tinderUsr = new Object()
 
-// console.log(tinderUser)
+//  console.log(tinderUsr)
 
 const tinderUser = {}
 
@@ -9,7 +9,7 @@ tinderUser.name = "Samay",
 tinderUser.isLoggedIn= false
 
 
-//  console.log(tinderUser)
+//   console.log(tinderUser)
 
 
 const regular ={
@@ -81,3 +81,4 @@ const {courseInstrucutor:instructor}= course
 //     "course":"Btech",
 //     "job":"Seeking"
 // }
+
