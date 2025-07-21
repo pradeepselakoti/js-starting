@@ -10,8 +10,8 @@
 // console.log(undefined > 0)
 //  console.log(undefined < 0)
 
-console.log("2"==2)
-console.log("2"===2);
+// console.log("2"==2)
+// console.log("2"===2);
 
 // ✅ == Type Coercion Rules
 // 1️⃣ Same Type ➔ Compare Directly
@@ -56,6 +56,7 @@ console.log("2"===2);
 // [] == ""            // true
 // [] == 0             // true
 // [null] == 0         // true (since [null] → "" → 0)
+
 // 6️⃣ NaN is NEVER equal
 
 // NaN == NaN          // false

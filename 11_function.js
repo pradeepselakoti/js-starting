@@ -16,7 +16,7 @@ function addTwoNm(num1 , num2){
 
 function addTwoNum(num1 , num2){
     let result = num1+num2
-    return result
+    // return result
      console.log("RAD")
 
     return num1+num2
@@ -24,7 +24,7 @@ function addTwoNum(num1 , num2){
 
 
 const result = addTwoNum(4,5)
-//  console.log("Resr:",result)
+//   console.log("Resr:",result)
 
 function loginUserMessage(username = 'sam'){
 //     // if (!username)  or 
