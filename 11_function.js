@@ -20,11 +20,14 @@ function addTwoNum(num1 , num2){
      console.log("RAD")
 
     return num1+num2
-}
+}   
 
 
 const result = addTwoNum(4,5)
-//   console.log("Resr:",result)
+//    console.log("Resr:",result)  
+
+// RAD
+// Resr: 9
 
 function loginUserMessage(username = 'sam'){
 //     // if (!username)  or 
@@ -36,3 +39,4 @@ function loginUserMessage(username = 'sam'){
     return `${username} just logged in`
 }
  console.log(loginUserMessage())
+//  sam just logged in

@@ -1,14 +1,14 @@
 const score = 400
 
 const balance = new Number(100)
-// console.log(balance)
+//  console.log(balance)  [Number: 100]
 
-//  console.log( balance.toString().length)
-//  console.log(balance.toFixed(2))
+//  console.log( balance.toString().length) 3
+//  console.log(balance.toFixed(2))  100.00
 
 const otherNumber = 1123.886
 
-// console.log(otherNumber.toPrecision(5))
+// console.log(otherNumber.toPrecision(6))  1123.89
 
 
 const hundreds = 1000000;
@@ -19,12 +19,12 @@ const hundreds = 1000000;
 
 //++++++++++++++++++++++++++ MATHS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-console.log(Math);
-// console.log(Math.abs(-5))
-//   console.log(Math.round(4.5))
-//  console.log(Math.ceil(4.1))
-console.log(Math.floor(4.6))
-// console.log(Math.min(4,5,6,1,12))
+// console.log(Math);  Object                   [Math] {}
+// console.log(Math.abs(-5))                5
+//   console.log(Math.round(4.5))           5
+//  console.log(Math.ceil(4.1))             5  
+// console.log(Math.floor(4.6))             4
+// console.log(Math.min(4,5,6,1,12))        1
 
 // console.log(Math.random())
 // console.log(Math.floor(Math.random()*10)+1)

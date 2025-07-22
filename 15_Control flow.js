@@ -9,6 +9,8 @@ const temperature = 41
 //     console.log("Not executed")
 // }
 
+// Not executed
+
 // if(temperature<50){
 //     console.log("less then 50");
 // } else console.log("temp is grater then 50")
@@ -21,11 +23,11 @@ const temperature = 41
 const score = 200
 
 // if(score>100){
-//     // var power = "fly"
-//     const power = "fly"
+//     var power = "fly"
+//     // const power = "fly"
 //     console.log(`user power ${power}`)
 // }
-//     //  console.log(`user power ${power}`)
+//      console.log(`user power ${power}`)
 
 const balance = 500
 

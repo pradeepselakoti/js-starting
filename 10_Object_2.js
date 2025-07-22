@@ -1,6 +1,6 @@
 const tinderUsr = new Object()
 
-//  console.log(tinderUsr)
+//   console.log(tinderUsr)  {}
 
 const tinderUser = {}
 
@@ -9,7 +9,7 @@ tinderUser.name = "Samay",
 tinderUser.isLoggedIn= false
 
 
-//   console.log(tinderUser)
+//    console.log(tinderUser)          { id: '123abc', name: 'Samay', isLoggedIn: false }
 
 
 const regular ={
@@ -22,17 +22,17 @@ const regular ={
     }
 }
 
-//  console.log(regular.fullname.userFullname)
+//   console.log(regular.fullname.userFullname)         { name: 'Pradeep', lastname: 'Selakoti' }
 
 const obj1 = {1: "a", 2:"b"}
 const obj2 = {3: "c", 4:"d"}
 const obj4 = {5: "e", 6:"f"}
 
 const obj3 = Object.assign({},obj1,obj2)
-//  console.log(obj3)
+// console.log(obj3)            { '1': 'a', '2': 'b', '3': 'c', '4': 'd' }
 
 const obj5 ={...obj1,...obj2}
-// console.log(obj5)
+//  console.log(obj5)           { '1': 'a', '2': 'b', '3': 'c', '4': 'd' }
 
 const users =[
     {
@@ -48,14 +48,14 @@ const users =[
     }
 ]
 
-// console.log(users[1].email)
-//  console.log(tinderUser)
+// console.log(users[1].email)      h@gmail.com
+//   console.log(tinderUser)        { id: '123abc', name: 'Samay', isLoggedIn: false }
 
-//  console.log(Object.keys(tinderUser))
-//  console.log(Object.values(tinderUser))
-//  console.log(Object.entries(tinderUser))
+//  console.log(Object.keys(tinderUser))      [ 'id', 'name', 'isLoggedIn' ]
+//  console.log(Object.values(tinderUser))    [ '123abc', 'Samay', false ]
+//  console.log(Object.entries(tinderUser))   [ [ 'id', '123abc' ], [ 'name', 'Samay' ], [ 'isLoggedIn', false ] ]
 
-// console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'))         true
 
 const course = {
     coursename: "JS in Hindi",
@@ -63,13 +63,13 @@ const course = {
     courseInstrucutor: "Pradeep"
 }
 
-// course.courseInstrucutor
-
+course.courseInstrucutor
 const {courseInstrucutor} = course
-// console.log(courseInstrucutor)
+
+// console.log(courseInstrucutor)   Pradeep
 
 const {courseInstrucutor:instructor}= course
-// console.log(instructor)
+//  console.log(instructor)             Pradeep
 
 // const navbar =({company})=>{
 

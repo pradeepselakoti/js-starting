@@ -7,12 +7,10 @@ if(userEmail){
 }
 
 // false values
-
 //  false, 0, -0, BigInt 0n, "", null, undefined, NaN
 
 // truthy value
-
-// "0", 'false, " ", [], {}, function(){}
+// "0", 'false, [], {}, function(){}
 
 if(userEmail.length === 0){
     console.log("Array is empty");
@@ -37,12 +35,14 @@ val = null ?? 10
 
 val2 = null ?? undefined ?? 20
 
-// console.log(val2)
+console.log(val2)
 
 //  Terniary Operator
 
 // condition ? true :false
 
-const iceTeaPrice = 100
+const iceTeaPrice = 10
 
 iceTeaPrice>= 100 ? console.log("iceTeaPrice"): console.log("not")
+
+

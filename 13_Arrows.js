@@ -3,27 +3,27 @@ const user = {
     price:'999',
     welcomeMessage: function(){
         console.log(`${this.username} , Welcome to website`);
-        //  console.log(this)
+        //   console.log(this)
 
     }
 }
 
-// user.welcomeMessage()
+//  user.welcomeMessage()
 user.username = "klkl"
 // user.welcomeMessage()
 
-// console.log(this)  
+// console.log(user.this)  
 // {}
 //  window is the global object window{}
 
-// function chai(){
-//     let username = "pradee"
-//     console.log(this.username)  
+function chai(){
+    let username = "pradee"
+    console.log(this.username)  
 
 //     // 'this' can't be used to the function and it can be used to only objects
-// }
+ }
 
-// chai()
+//  chai()
 
 // const chai = function chai(){
 //       let username = "pradee"

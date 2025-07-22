@@ -15,13 +15,13 @@ const Juser = {
     lastLoginDays: ["Monday","Saturday"]
 }
 
-//  console.log(Juser.email)
- console.log(Juser['email'])
+//   console.log(Juser.email)      Pradeep@google.com
+//  console.log(Juser['email'])        Pradeep@google.com
 
-//   console.log(Juser["full"])
-//   console.log(Juser[mySym])
-//   console.log(Juser.mySym)
-//  console.log(typeof mySym)
+//   console.log(Juser["full"])         Pradeep Selakoti
+//   console.log(Juser[mySym])          mykey1
+//   console.log(Juser.mySym)              undefined
+//   console.log(typeof mySym)              symbol
 
 Juser.email = "Pradeep@gmail.com"
 
@@ -36,5 +36,10 @@ Juser.greeting = function(){
 Juser.greeting2 = function(){
      console.log(`hello my name is ${this.full}`)
 }
- console.log(Juser.greeting())
- console.log(Juser.greeting2())
+//  console.log(Juser.greeting())
+// Hello JS User
+// undefined
+
+//  console.log(Juser.greeting2())
+// hello my name is Pradeep Selakoti
+// undefined

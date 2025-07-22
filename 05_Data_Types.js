@@ -35,8 +35,8 @@ let myObj = {
 //     console.log("Hello world")
 // }
 
- console.log(typeof outsideTemp)
-// console.log(typeof score)
+//  console.log(typeof outsideTemp)  object
+// console.log(typeof score)  number
 
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -50,8 +50,8 @@ let anothername = ytname
 
 anothername = "chai"
 
-// console.log(ytname)
-// console.log(anothername)
+// console.log(ytname)  pradeepdotcom
+// console.log(anothername)  chai
 
 let userOne = {
     email:"user@gmail.com",
@@ -62,5 +62,5 @@ let userTwo = userOne
 
 userTwo.email = "read@gmail"
 
-// console.log(userOne)
-// console.log(userTwo)
+// console.log(userOne)  read@gmail, user@ybl
+// console.log(userTwo)  read@gmail, user@ybl

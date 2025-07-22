@@ -15,7 +15,7 @@ function handleObject(anybject){
 // handleObject(user)
 handleObject({
     username:"sam",
-    price:34
+    prices:34
 })
 
 const myNewArray = [200,400,500]
@@ -24,7 +24,7 @@ function  returnSecond(getArray){
     return getArray[1]
 }
 
-console.log(returnSecond(myNewArray))
+// console.log(returnSecond(myNewArray))    400
 
  
 // gli 
