@@ -5,9 +5,9 @@ const  myObjec ={
     swift:"swift by"
 }
 
-// for(const [key,val] in myObjec){
-//      console.log(`${key} shortcut is for :-- ${myObjec[key]}`)
-// }
+for(const key in myObjec){
+     console.log(`${key} shortcut is for :-- ${myObjec[key]}`)
+}
 
 //  not working
 // for(const [key,val] in myObjec){
@@ -16,9 +16,9 @@ const  myObjec ={
 
 const programming =  ["js","py","py","math"]
 
-// for(const [key,vale] in programming){
-//      console.log(`${programming[vale]} and the `)
-// }
+for(const [key,vale] in programming){
+     console.log(`${programming[key]} and the `)
+}
 
 //  value not work for array
 

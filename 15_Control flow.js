@@ -31,7 +31,7 @@ const score = 200
 
 const balance = 500
 
-// if(balance >500) console.log("test"),console.log("test 2")
+if(balance >500) console.log("test"),console.log("test 2")
 
 // if(balance<1000){
 //     console.log("less then 1000")

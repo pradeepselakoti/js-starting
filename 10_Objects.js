@@ -2,7 +2,7 @@
 // Object Create
 
 //object literal
-const mySym = Symbol("key1")
+const mySym = Symbol("mkey1")
 
 const Juser = {
     name:"Pradeep",
@@ -16,12 +16,12 @@ const Juser = {
 }
 
 //   console.log(Juser.email)      Pradeep@google.com
-//  console.log(Juser['email'])        Pradeep@google.com
+//  console.log(Juser['email'])        Pradeep@google.com   both above and this are same
 
 //   console.log(Juser["full"])         Pradeep Selakoti
 //   console.log(Juser[mySym])          mykey1
 //   console.log(Juser.mySym)              undefined
-//   console.log(typeof mySym)              symbol
+   console.log(typeof Juser[mySym])              
 
 Juser.email = "Pradeep@gmail.com"
 

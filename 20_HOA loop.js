@@ -19,22 +19,23 @@ const map = new Map()
 
 map.set('IN',"India")
 map.set('USA','united state of America')
- map.set('IN',"India")
+map.set('IN',"India")
 
-//  console.log(map)
+ console.log(map)
 
-// for (const [key,vale] of map){
-//      console.log(key ,":-",vale)
-// }
+for (const [key,vale] of map){
+     console.log(key ,":-",vale)
+}
 
 const myObj ={
     game1:"pubg",
     game2:"Valorant"
 }
 
-for(const [key,vale] of myObj){
-    console.log(key,vale)
- }  
+// for(const [key,vale] of myObj){
+//     console.log(key,vale)
+//  }  
 
-// not working --error of operator not work for the object
+// not working --error 'of' operator not work for the object
 
+// of work for map and array

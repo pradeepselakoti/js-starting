@@ -19,6 +19,7 @@
 // 5 == 5           // true
 // "hello" == "hi"  // false
 // true == false    // false
+
 // 2️⃣ Boolean ➔ Convert to Number
 // true ➔ 1
 
@@ -30,6 +31,7 @@
 // true == 1        // true
 // false == 0       // true
 // true == 2        // false
+
 // 3️⃣ String + Number ➔ String Converts to Number
 
 // "2" == 2         // true
@@ -46,6 +48,7 @@
 // null == undefined   // true
 // null == 0           // false
 // undefined == 0      // false
+
 // 5️⃣ Object compared with String/Number
 // Object is converted to primitive using valueOf() or toString().
 
@@ -61,6 +64,7 @@
 
 // NaN == NaN          // false
 // NaN == 0            // false
+
 // 🚦 Quick Memory Recap:
 // ✅ == allows type coercion:
 

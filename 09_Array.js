@@ -26,4 +26,3 @@ const newArr1 = myArr.join() // convert the array into string
 //  console.log(newArr1)      0,1,2,3,4,5
 //  console.log(myArr)        [ 0, 1, 2, 3, 4, 5 ]
 //  console.log(typeof newArr1)   string
-// string

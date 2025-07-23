@@ -14,6 +14,7 @@ user.username = "klkl"
 
 // console.log(user.this)  
 // {}
+
 //  window is the global object window{}
 
 function chai(){
@@ -53,4 +54,4 @@ const addTwo =(n1,n2) =>  ({username:"Pradeep"})
 
 
 // console.log(addTwo(3,4))
-
+// { username: 'Pradeep' }
