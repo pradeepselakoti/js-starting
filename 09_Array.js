@@ -12,7 +12,7 @@ const newArr = new Array(1,2,3,4)
 // Array Methods4
 
 // myArr.push(6,8,9)      [ 0, 1, 2, 3, 4, 5, 6, 8, 9]
-//  myArr.push(7)
+// myArr.push(7)
 // myArr.unshift(22)   add at starting
 // myArr.shift()      remove from start
 // myArr.pop()         remove from the last           
