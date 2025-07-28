@@ -50,10 +50,11 @@
     // })
 
     document.getElementById('images').addEventListener('click',function(e){
-        // console.log(e)
+        //  console.log(e)
         console.log(e.target.tagName)
         if(e.target.tagName === 'IMG'){
         let removeit = e.target.parentNode
+        console.log(removeit)
         removeit.remove()
         }
 
