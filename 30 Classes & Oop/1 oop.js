@@ -20,6 +20,7 @@ function User(username, loginCount, isLoggedIn){
     this.username = username
 
     this.greeting = function(){
+        
         console.log(`welcome ${this.username}`)
     }
     return this

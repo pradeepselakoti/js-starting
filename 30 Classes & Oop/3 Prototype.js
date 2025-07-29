@@ -25,7 +25,7 @@ Array.prototype.heyPradeep =function(){
 // heroPower.pradeep()
 // myHeros.pradeep()
 // myHeros.heyPradeep()
-// heroPower.heyPradeep()
+// heroPower.heyPradeep()  error
 
 //  Inheritance
 

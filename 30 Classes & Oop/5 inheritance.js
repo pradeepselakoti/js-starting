@@ -10,7 +10,6 @@ class User {
 class Teacher extends User {
     constructor(username, email, password){
         super(username)
-        this.username = username
         this.email = email
         this.password = password
     }

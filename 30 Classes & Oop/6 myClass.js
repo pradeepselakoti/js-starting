@@ -10,6 +10,7 @@
 //     encryptPassword(){
 //         return `${this.password}abc`
 //     }
+
 //     changeUsername(){
 //         return `${this.username.toUpperCase()}`
 //     }
