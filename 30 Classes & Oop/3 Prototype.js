@@ -8,7 +8,6 @@ const myHeros = ["thor", "spiderman"]
 let  heroPower = {
     thor:"hammer",
     spiderman:"sling",
-
     getspiderman:function(){
         console.log(`spidy power is ${this.spiderman}`);
     }

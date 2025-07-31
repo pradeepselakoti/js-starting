@@ -20,7 +20,7 @@ for(const [key,vale] in programming){
      console.log(`${programming[key]} and the `)
 }
 
-//  value not work for array
+//  value not work for array in (in)operator
 
  const map = new Map()  
 //  Creates a new empty Map object in JavaScript.

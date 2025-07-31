@@ -20,5 +20,8 @@ let score = 6;
 do{
     console.log(`score is ${score}`)
     score++
+    console.log(score)
 
 } while(score<5)
+
+    

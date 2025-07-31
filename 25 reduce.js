@@ -1,4 +1,4 @@
-                      const myNums = [1,2,3,4,5]
+   const myNums = [1,2,3,4,5]
 
 // const myTotal = myNums.reduce( function (acc, curval) {
 //     console.log(`acc:${acc} and curval ${curval}`)

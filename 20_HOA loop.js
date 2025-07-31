@@ -3,7 +3,7 @@
 const arr = [12,3,4,5]
 
 for( const num of arr){
-    // console.log(num)
+    console.log(num)
 }
 
 

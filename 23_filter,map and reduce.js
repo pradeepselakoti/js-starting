@@ -4,7 +4,7 @@ const values = coding.forEach((item)=>{
      console.log(item)
       // return item
 })
-console.log(values)
+// console.log(values)
 
 //  for each :- doesn't return anything 
 
